@@ -16,6 +16,9 @@
 		317E72E629343C6600076F07 /* AppStoreAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E72E529343C6600076F07 /* AppStoreAnimationTests.swift */; };
 		317E72F029343C6600076F07 /* AppStoreAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E72EF29343C6600076F07 /* AppStoreAnimationUITests.swift */; };
 		317E72F229343C6600076F07 /* AppStoreAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E72F129343C6600076F07 /* AppStoreAnimationUITestsLaunchTests.swift */; };
+		31F5BFD3293E4BE300CD0506 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5BFD2293E4BE300CD0506 /* PresentViewController.swift */; };
+		31F5BFD5293E4C1300CD0506 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5BFD4293E4C1300CD0506 /* ImageTableViewCell.swift */; };
+		31F5BFD7293E632100CD0506 /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5BFD6293E632100CD0506 /* PresentAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		317E72EB29343C6600076F07 /* AppStoreAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		317E72EF29343C6600076F07 /* AppStoreAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAnimationUITests.swift; sourceTree = "<group>"; };
 		317E72F129343C6600076F07 /* AppStoreAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31F5BFD2293E4BE300CD0506 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		31F5BFD4293E4C1300CD0506 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		31F5BFD6293E632100CD0506 /* PresentAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				317E72D729343C6600076F07 /* Assets.xcassets */,
 				317E72D929343C6600076F07 /* LaunchScreen.storyboard */,
 				317E72DC29343C6600076F07 /* Info.plist */,
+				31F5BFD2293E4BE300CD0506 /* PresentViewController.swift */,
+				31F5BFD4293E4C1300CD0506 /* ImageTableViewCell.swift */,
+				31F5BFD6293E632100CD0506 /* PresentAnimator.swift */,
 			);
 			path = AppStoreAnimation;
 			sourceTree = "<group>";
@@ -260,6 +269,9 @@
 			files = (
 				317E72D329343C6500076F07 /* ViewController.swift in Sources */,
 				317E72CF29343C6500076F07 /* AppDelegate.swift in Sources */,
+				31F5BFD5293E4C1300CD0506 /* ImageTableViewCell.swift in Sources */,
+				31F5BFD3293E4BE300CD0506 /* PresentViewController.swift in Sources */,
+				31F5BFD7293E632100CD0506 /* PresentAnimator.swift in Sources */,
 				317E72D129343C6500076F07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
